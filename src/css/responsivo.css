@@ -1,6 +1,6 @@
 @media (max-width: 1200px) {
     body {
-       background-color: #163C77;
+        background-color: #163C77;
     }
 
     .fundo-video {
@@ -40,28 +40,33 @@
         justify-content: center;
         gap: 10px;
     }
+
     .informacoes.detalhes {
         font-size: 10px;
         width: 70%;
         text-align: center;
     }
+
     .container .imagem-titulo {
         max-width: 50%;
     }
-    .grid{
+
+    .grid {
         width: 50%;
         margin: 0 auto;
     }
-    .download__content{
+
+    .download__content {
         display: grid;
-        grid-template-areas: 
-        "A B"
-        "A C";
+        grid-template-areas:
+            "A B"
+            "A C";
         margin: 0 auto;
         justify-content: center;
         align-items: center;
     }
-    .download__content__icon{
+
+    .download__content__icon {
         display: none;
     }
 

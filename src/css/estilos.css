@@ -1,6 +1,7 @@
 body {
     font-family: 'Poppins';
 }
+
 .cabecalho {
     display: flex;
     justify-content: space-between;
@@ -8,11 +9,12 @@ body {
     max-width: 1728px;
     margin: 0 auto;
 }
+
 .cabecalho .logo {
     width: 65px;
 }
 
-.cabecalho .menu{
+.cabecalho .menu {
     display: flex;
     align-items: center;
     height: 100%;
@@ -42,6 +44,7 @@ body {
     max-width: 1728px;
     margin: 0 auto;
 }
+
 .cabecalho.detalhes .logo {
     width: 100px;
 }
@@ -54,15 +57,18 @@ body {
     height: calc(100vh - 132px);
     padding: 0 30px 30px;
 }
-.container .aves{
+
+.container .aves {
     width: 700px;
 }
+
 .container.detalhes {
     height: calc(100vh - 240px);
     display: grid;
     gap: 30px;
 
 }
+
 .container .imagem-titulo {
     max-width: 300px;
 }
@@ -115,7 +121,7 @@ body {
     position: absolute;
     top: 0;
     left: 0;
-    background: linear-gradient(90deg, rgba(0,0,0,1) 0%, rgba(0,0,0,0.8) 50%, rgba(0,0,0,1) 100%);
+    background: linear-gradient(90deg, rgba(0, 0, 0, 1) 0%, rgba(0, 0, 0, 0.8) 50%, rgba(0, 0, 0, 1) 100%);
 }
 
 .modal {
@@ -166,47 +172,53 @@ body {
     height: 100%;
     margin: 0 auto;
 }
-.informacoes.detalhes p{
+
+.informacoes.detalhes p {
     color: gray;
 }
-.informacoes.detalhes h1{
+
+.informacoes.detalhes h1 {
     color: darkgray;
     text-align: center;
 }
-.download__content{
+
+.download__content {
     display: grid;
-    grid-template-areas: 
-    "A B C"
-    "A D C";
+    grid-template-areas:
+        "A B C"
+        "A D C";
     margin: 0 auto;
     justify-content: center;
     align-items: center;
 }
-.download__content__logo{
+
+.download__content__logo {
     grid-area: A;
     margin: 20px;
 }
-.download__content__text{
+
+.download__content__text {
     grid-area: B;
     color: #ffffff;
     width: 200px;
 }
-.download__content__icon{
+
+.download__content__icon {
     grid-area: C;
     margin: 20px;
 }
-#apple{
-    grid-area: D;
-    margin: 20px;
-}
-#google{
-    grid-area: D;
-    margin: 20px;
-}
-#samsung{
+
+#apple {
     grid-area: D;
     margin: 20px;
 }
 
+#google {
+    grid-area: D;
+    margin: 20px;
+}
 
-
+#samsung {
+    grid-area: D;
+    margin: 20px;
+}
